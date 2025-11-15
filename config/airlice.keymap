@@ -15,6 +15,11 @@
             bindings = <&bootloader>;
             key-positions = <0 1>;
         };
+
+        bootloader_right {
+            bindings = <&bootloader>;
+            key-positions = <16 33>;
+        };
     };
 
     keymap {
