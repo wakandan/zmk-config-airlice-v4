@@ -38,9 +38,9 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans                    &trans                     &trans                 &trans  &trans    &trans                 &kp K_PLAY_PAUSE
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans                &trans                    &trans                     &trans                 &trans  &trans    &trans         &trans  &kp K_PREV
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &kp LG(LEFT_BRACKET)  &kp LG(LS(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))  &kp LG(RIGHT_BRACKET)  &trans  &trans    &trans                 &kp K_NEXT
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                &trans                    &trans                     &trans                 &trans  &trans    &trans                 &kp C_PLAY_PAUSE
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans                &trans                    &trans                     &trans                 &trans  &trans    &trans         &trans  &kp C_PREV
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &kp LG(LEFT_BRACKET)  &kp LG(LS(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))  &kp LG(RIGHT_BRACKET)  &trans  &trans    &trans                 &kp C_NEXT
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans                &trans                    &trans                     &trans                 &trans  &trans    &kp PAGE_UP
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans                &trans                    &trans                     &trans                 &trans  &kp HOME  &kp PAGE_DOWN          &kp END
             >;
