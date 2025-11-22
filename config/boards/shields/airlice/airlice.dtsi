@@ -7,6 +7,12 @@
         zmk,kscan = &kscan0;
     };
 
+    wired_split {
+        compatible = "zmk,wired-split";
+        device = <&pro_micro_serial>;
+    };
+    
+
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "col2row";
